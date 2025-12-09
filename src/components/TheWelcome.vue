@@ -21,22 +21,11 @@ const openReadmeInEditor = () => fetch('/__open-in-editor?file=README.md')
     <template #icon>
       <ToolingIcon />
     </template>
-    <template #heading>Tooling</template>
+    <template #heading>Currencies</template>
 
-    This project is served and bundled with
-    <a href="https://vite.dev/guide/features.html" target="_blank" rel="noopener noreferrer">Vite</a>. The
-    recommended IDE setup is
-    <a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">VSCode</a>
-    +
-    <a href="https://github.com/vuejs/language-tools" target="_blank" rel="noopener noreferrer"
-      >Vue - Official</a
-    >. If you need to test your components and web pages, check out
-    <a href="https://vitest.dev/" target="_blank" rel="noopener noreferrer">Vitest</a>
-    and
-    <a href="https://www.cypress.io/" target="_blank" rel="noopener noreferrer">Cypress</a>
-    /
-    <a href="https://playwright.dev/" target="_blank" rel="noopener noreferrer">Playwright</a>.
-
+    <input type="number" placeholder="Enter your number here">
+    <br />
+    <button>Button</button>
     <br />
 
     More instructions are available in
